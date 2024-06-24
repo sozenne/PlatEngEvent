@@ -1,0 +1,9 @@
+name: AppConfig
+summary: This is an App Configuration deployment using Bicep.
+description: Deploys an App Config.
+parameters:
+- id: "APIM"
+  name: "APIM"
+  description: "Name of the APIM Config"
+  type: "string"
+  required: true
